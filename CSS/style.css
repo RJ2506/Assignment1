@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1rem;
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: 5rem 1fr 5rem;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+        'h h h'
+        's c c'
+        'f f f';
+
+    gap: 5px;
+    width: 100vw;
+    height: 100vw;
+}
+
+.header {
+    grid-area: h;
+    background-color: #f2e9de;
+    direction: rtl;
+    color:#286983 ;      
+}
+
+.sidebar {
+    grid-area: s;
+    background-color: #f2e9de;
+}
+
+.content {
+    grid-area: c;
+    background-color:#f2e9de;
+}
+
+.footer {
+    grid-area: f;
+    background-color:#f2e9de;
+    color: #286983;
+    text-align: center;
+    padding: 1rem;
+}
+
+.buttons {
+    border: none;
+    padding: 0 20px;
+    text-align: center;
+    color: #286983;
+    border-radius: 10px;
+    background-color: #f2e9de;
+}
+
+.buttons:hover {
+    background-color:#9ccfd8 ;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin: 10px;
+    padding: 15px;
+    list-style-type: none;    
+}
+
+.side_button {
+    border: none;
+    padding: 0 20px;
+    text-align: left;
+    color: #286983;
+    background-color:#f2e9de ;
+}
+
+.side_button:hover {
+    background-color:#9ccfd8 ;
+}
+
+@media screen and (max-width: 450px){
+    .container {
+        display: grid;
+        grid-template-rows: 2rem 1fr 2rem;
+        grid-template-columns: 100px 1fr;
+        grid-template-areas: 
+            'h h h'
+            's c c'
+            'f f f';
+    
+        gap: 5px;
+        width: 100vw;
+        height: 100vw;
+    }
+    .header {
+        grid-area: h;
+        background-color: #faf4ed;
+        direction: rtl;
+        color:#286983 ;
+        
+    }
+    
+    .sidebar {
+        grid-area: s;
+        background-color: #faf4ed;
+    }
+    
+    .content {
+        grid-area: c;
+        background-color: #faf4ed;
+    }
+    
+    .footer {
+        grid-area: f;
+        background-color: #faf4ed;
+        color: #286983;
+        text-align: center;
+        padding: .5rem;
+    }
+    
+    .buttons {
+        border: none;
+        padding: 0 10px;
+        text-align: center;
+        color: #286983;
+        border-radius: 5px;
+        background-color:#faf4ed ;
+    }
+    
+    .buttons:hover {
+        background-color:#9ccfd8;
+    }
+    
+    .top {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    li {
+        margin: 2px;
+        padding: 5px;
+        list-style-type: none;
+       
+    }
+    
+    .side_button {
+        border: none;
+        padding: 0 5px;
+        text-align: left;
+        color: #286983;
+        background-color:#faf4ed ;
+    }
+    
+    .side_button:hover {
+        background-color:#9ccfd8;
+    }
+    
+
+
+}
