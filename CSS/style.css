@@ -35,6 +35,7 @@
 .content {
     grid-area: c;
     background-color:#f2e9de;
+    padding: 10px;
 }
 
 .footer {
@@ -80,6 +81,17 @@ li {
 .side_button:hover {
     background-color:#9ccfd8 ;
 }
+label {
+    display: block;
+    text-align: left;
+    margin-right: 10px;
+    color: #286983;
+}
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    color: #286983;
+}
 
 @media screen and (max-width: 450px){
     .container {
@@ -111,6 +123,7 @@ li {
     .content {
         grid-area: c;
         background-color: #faf4ed;
+        padding: 10px;
     }
     
     .footer {
@@ -158,6 +171,18 @@ li {
         background-color:#9ccfd8;
     }
     
+    label {
+        display: block;
+        text-align: left;
+        margin-right: 5px;
+        color: #286983;
+    }
+    textarea {
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 2px;
+        color: #286983;
+    }
 
 
 }
