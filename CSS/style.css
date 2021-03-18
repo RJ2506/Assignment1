@@ -13,7 +13,7 @@
     grid-template-areas: 
         'h h h'
         's c c'
-        'f f f';
+        's f f';
 
     gap: 5px;
     width: 100vw;
@@ -29,7 +29,7 @@
 
 .sidebar {
     grid-area: s;
-    background-color: #f2e9de;
+    background-color: #e0def4;
 }
 
 .content {
@@ -65,17 +65,17 @@
 }
 
 li {
-    margin: 10px;
     padding: 15px;
     list-style-type: none;    
 }
 
 .side_button {
     border: none;
-    padding: 0 20px;
+    padding: 10px;
+    margin-left: 200px;
     text-align: left;
     color: #286983;
-    background-color:#f2e9de ;
+    background-color:#e0def4 ;
 }
 
 .side_button:hover {
@@ -117,6 +117,36 @@ textarea {
     background-color: #eb6f92;
 }
 
+.my_notes {
+    border: none;
+    color: #286983;
+    background-color: #e0def4;
+}
+
+.my_notes:hover {
+    background-color: #9ccfd8;
+}
+
+.note_one {
+    border:none;
+    color:#286983;
+    background-color: #e0def4;
+}
+
+.note_one:hover {
+    background-color: #9ccfd8;
+}
+
+.note_two {
+    border: none;
+    color: #286983;
+    background-color: #e0def4;
+}
+
+.note_two:hover {
+    background-color: #9ccfd8;
+}
+
 @media screen and (max-width: 450px){
     .container {
         display: grid;
@@ -125,7 +155,7 @@ textarea {
         grid-template-areas: 
             'h h h'
             's c c'
-            'f f f';
+            's f f';
     
         gap: 5px;
         width: 100vw;
@@ -141,7 +171,7 @@ textarea {
     
     .sidebar {
         grid-area: s;
-        background-color: #faf4ed;
+        background-color: #e0def4;
     }
     
     .content {
@@ -185,10 +215,10 @@ textarea {
     
     .side_button {
         border: none;
-        padding: 0 5px;
+        margin-left: 50px;
         text-align: left;
         color: #286983;
-        background-color:#faf4ed ;
+        background-color:#e0def4;
     }
     
     .side_button:hover {
@@ -231,5 +261,35 @@ textarea {
     .delete:hover {
         background-color: #eb6f92;
     }
+    .my_notes {
+        border: none;
+        color: #286983;
+        background-color: #e0def4;
+    }
+    
+    .my_notes:hover {
+        background-color: #9ccfd8;
+    }
+    
+    .note_one {
+        border:none;
+        color:#286983;
+        background-color: #e0def4;
+    }
+    
+    .note_one:hover {
+        background-color: #9ccfd8;
+    }
+    
+    .note_two {
+        border: none;
+        color: #286983;
+        background-color: #e0def4;
+    }
+    
+    .note_two:hover {
+        background-color: #9ccfd8;
+    }
+    
 
 }
