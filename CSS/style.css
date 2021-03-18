@@ -89,8 +89,32 @@ label {
 }
 textarea {
     padding: 10px;
+    border: none;
     border-radius: 5px;
     color: #286983;
+}
+.box {
+    padding: 10px;
+    width: 200px;
+    color: #286983;
+}
+
+.save {
+    color: #286983;
+    border: none;
+}
+
+.save:hover {
+    background-color:#eb6f92 ;
+}
+
+.delete {
+    color: #286983;
+    border: none;
+}
+
+.delete:hover {
+    background-color: #eb6f92;
 }
 
 @media screen and (max-width: 450px){
@@ -182,7 +206,30 @@ textarea {
         padding: 10px;
         border-radius: 2px;
         color: #286983;
+        border: none;
     }
 
+    .box {
+        padding: 10px;
+        width: 100px;
+    }
+
+    .save {
+        color: #286983;
+        border: none;
+    }
+
+    .save:hover {
+        background-color:#eb6f92 ;
+    }
+
+    .delete {
+        color: #286983;
+        border: none;
+    }
+
+    .delete:hover {
+        background-color: #eb6f92;
+    }
 
 }
