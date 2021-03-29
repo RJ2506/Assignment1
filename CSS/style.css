@@ -147,7 +147,7 @@ textarea {
     background-color: #9ccfd8;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 580px){
     .container {
         display: grid;
         grid-template-rows: 2rem 1fr 2rem;
@@ -233,7 +233,9 @@ textarea {
     }
     textarea {
         font-size: 15px;
-        padding: 10px;
+        padding: 0px;
+        width: 150px;
+        height: 90;
         border-radius: 2px;
         color: #286983;
         border: none;
